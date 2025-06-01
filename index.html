@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kamen Rider Kasui Fanpage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Kamen Rider Kasui Fanpage</h1>
+    <nav>
+      <a href="#gioithieu">Giới thiệu</a>
+      <a href="#danhsach">Các Rider</a>
+      <a href="#lienhe">Liên hệ</a>
+    </nav>
+  </header>
+
+  <section id="gioithieu">
+    <h2>Giới thiệu về Kamen Rider</h2>
+    <p>Trang web dành cho fan Kamen Rider tại Việt Nam. Tại đây bạn có thể tìm hiểu thông tin về các Rider nổi bật!</p>
+  </section>
+
+  <section id="danhsach">
+    <h2>Các Rider nổi bật</h2>
+    <div class="grid">
+      <!-- Rider: Kuuga -->
+      <div class="rider-card" onclick="showInfo('kuuga')">
+        <img src="images/kuga.jpg" alt="Kuuga" />
+        <div class="info" id="kuuga">
+          <strong>Kamen Rider Kuuga</strong><br />
+          Chiều cao: 200 cm<br />
+          Cân nặng: 90 kg<br />
+          Họ và tên: Godai Yusuke <br />
+          Rider đầu tiên thời Heisei, mang sức mạnh cổ đại chống lại Grongi.<br />
+          <img src="images/kuga-upgrade.jpg" class="upgrade-img" alt="Kuuga Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: Kabuto -->
+      <div class="rider-card" onclick="showInfo('kabuto')">
+        <img src="images/kabuto.jpg" alt="Kabuto" />
+        <div class="info" id="kabuto">
+          <strong>Kamen Rider Kabuto</strong><br />
+          Chiều cao: 195 cm<br />
+          Cân nặng: 95 kg<br />
+          Họ và tên: Tendou Souji<br />
+          “Tôi sẽ đi trước thời đại”, nhanh như chớp với kỹ năng Clock Up.<br />
+          <img src="images/kabuto-upgrade.jpg" class="upgrade-img" alt="Kabuto Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: Faiz -->
+      <div class="rider-card" onclick="showInfo('faiz')">
+        <img src="images/faiz.jpg" alt="Faiz" />
+        <div class="info" id="faiz">
+          <strong>Kamen Rider Faiz</strong><br />
+          Chiều cao: 190 cm<br />
+          Cân nặng: 85 kg<br />
+          Họ và tên: Inui Takumi<br />
+          Sử dụng Faiz Gear để chiến đấu chống lại Orphnoch.<br />
+          <img src="images/faiz-upgrade.jpg" class="upgrade-img" alt="Faiz Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: Den-O -->
+      <div class="rider-card" onclick="showInfo('deno')">
+        <img src="images/deno.jpg" alt="Den-O" />
+        <div class="info" id="deno">
+          <strong>Kamen Rider Den-O</strong><br />
+          Chiều cao: 178 cm<br />
+          Cân nặng: 72 kg<br />
+          Họ và tên: Nogami Ryotaro<br />
+          Du hành thời gian cùng các Imagin, nhiều hình dạng chiến đấu.<br />
+          <img src="images/deno-upgrade.jpg" class="upgrade-img" alt="Den-O Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: Kiva -->
+      <div class="rider-card" onclick="showInfo('kiva')">
+        <img src="images/kiva.jpg" alt="Kiva" />
+        <div class="info" id="kiva">
+          <strong>Kamen Rider Kiva</strong><br />
+          Chiều cao: 200 cm<br />
+          Cân nặng: 95 kg<br />
+          Họ và tên: Kurenai Wataru<br />
+          Rider mang sức mạnh ma cà rồng, chống lại Fangire.<br />
+          <img src="images/kiva-upgrade.jpg" class="upgrade-img" alt="Kiva Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: Decade -->
+      <div class="rider-card" onclick="showInfo('decade')">
+        <img src="images/decade.jpg" alt="Decade" />
+        <div class="info" id="decade">
+          <strong>Kamen Rider Decade</strong><br />
+          Chiều cao: 195 cm<br />
+          Cân nặng: 83 kg<br />
+          Họ và tên: Kadoya Tsukasa<br />
+          Rider du hành qua các thế giới khác, có thể biến hình thành Rider khác.<br />
+          <img src="images/decade-upgrade.jpg" class="upgrade-img" alt="Decade Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: OOO -->
+      <div class="rider-card" onclick="showInfo('ooo')">
+        <img src="images/ooo.jpg" alt="OOO" />
+        <div class="info" id="ooo">
+          <strong>Kamen Rider OOO</strong><br />
+          Chiều cao: 190 cm<br />
+          Cân nặng: 87 kg<br />
+          Họ và tên: Hino Eiji<br />
+          Biến hình bằng Core Medals, có nhiều tổ hợp dạng khác nhau.<br />
+          <img src="images/ooo-upgrade.jpg" class="upgrade-img" alt="OOO Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: W -->
+      <div class="rider-card" onclick="showInfo('w')">
+        <img src="images/w.jpg" alt="W" />
+        <div class="info" id="w">
+          <strong>Kamen Rider W</strong><br />
+          Chiều cao: 193 cm<br />
+          Cân nặng: 85 kg<br />
+          Họ và tên: Hidari Shotaro & Philip<br />
+          Rider hợp thể từ hai con người, sử dụng Gaia Memory để chống lại Dopant.<br />
+          <img src="images/w-upgrade.jpg" class="upgrade-img" alt="W Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: Zero-One -->
+      <div class="rider-card" onclick="showInfo('zeroone')">
+        <img src="images/zeroone.jpg" alt="Zero-One" />
+        <div class="info" id="zeroone">
+          <strong>Kamen Rider Zero-One</strong><br />
+          Chiều cao: 185 cm<br />
+          Cân nặng: 78 kg<br />
+          Họ và tên: Hiden Aruto<br />
+          Sử dụng Progrise Key để chiến đấu cùng công nghệ AI.<br />
+          <img src="images/zeroone-upgrade.jpg" class="upgrade-img" alt="Zero-One Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: Gaim -->
+      <div class="rider-card" onclick="showInfo('gaim')">
+        <img src="images/gaim.jpg" alt="Gaim" />
+        <div class="info" id="gaim">
+          <strong>Kamen Rider Gaim</strong><br />
+          Chiều cao: 190 cm<br />
+          Cân nặng: 96 kg<br />
+          Họ và tên: Kazuraba Kouta<br />
+          Dùng Lockseed để biến hình, chủ đề trái cây kết hợp samurai.<br />
+          <img src="images/gaim-upgrade.jpg" class="upgrade-img" alt="Gaim Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: Zi-O -->
+      <div class="rider-card" onclick="showInfo('zio')">
+        <img src="images/zio.jpg" alt="Zi-O" />
+        <div class="info" id="zio">
+          <strong>Kamen Rider Zi-O</strong><br />
+          Chiều cao: 200 cm<br />
+          Cân nặng: 100 kg<br />
+          Họ và tên: Tokiwa Sougo<br />
+          Rider du hành thời gian, sở hữu sức mạnh của các Rider thời Heisei.<br />
+          <img src="images/zio-upgrade.jpg" class="upgrade-img" alt="Zi-O Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: Wizard -->
+      <div class="rider-card" onclick="showInfo('wizard')">
+        <img src="images/wizard.jpg" alt="Wizard" />
+        <div class="info" id="wizard">
+          <strong>Kamen Rider Wizard</strong><br />
+          Chiều cao: 187 cm<br />
+          Cân nặng: 98 kg<br />
+          Họ và tên: Haruto Souma <br />
+          Sử dụng nhẫn phép để chiến đấu bằng ma thuật.<br />
+          <img src="images/wizard-upgrade.jpg" class="upgrade-img" alt="Wizard Upgrades" />
+        </div>
+      </div>
+
+      <!-- Rider: Geats -->
+      <div class="rider-card" onclick="showInfo('geats')">
+        <img src="images/geats.jpg" alt="Geats" />
+        <div class="info" id="geats">
+          <strong>Kamen Rider Geats</strong><br />
+          Chiều cao: 185 cm<br />
+          Cân nặng: 90 kg<br />
+          Họ và tên: Ukiyo Ace<br />
+          Chiến đấu trong trò chơi sinh tồn, nổi bật với trí tuệ và tốc độ.<br />
+          <img src="images/geats-upgrade.jpg" class="upgrade-img" alt="Geats Upgrades" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="lienhe">
+    <h2>Liên hệ</h2>
+    <p>Email: trinhchikhanh06@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kamen Rider Kasui Fanpage. Tất cả bản quyền thuộc về Toei.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
